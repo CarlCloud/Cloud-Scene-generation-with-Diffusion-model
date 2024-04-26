@@ -7,8 +7,7 @@ VAE是用huggingface的AutoEncoderKL基于Modis06在2020.3-6夜间的32-34通道
 的图片会产生畸变。  
 ![image](fig27_b.png)  
 Real-ESRGAN则是用的论文里的基于世界真实图片集的模型。Real-ESRGAN因为训练数据多对真实图片信息扩充能力较强，
-但是冗余也多会出现超分辨完了图片和Modis的三通道图差距很大的问题。其次用Real-GAN官方的模型数据通道只有  
-三通道。    
+但是冗余也多会出现超分辨完了图片和Modis的三通道图差距很大的问题。其次用Real-GAN官方的模型数据通道只有三通道。    
 ![image](fig29_d.png)  
 值得注意的是用这种方法产生的云图像在不同通道上具有差异。  
 ![image](fig30.png)  
